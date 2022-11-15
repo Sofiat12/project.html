@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html card</title>
+</head>
+<style>
+    body{
+        color: rgb(61, 58, 58); 
+        font-family: 'GT Eesti Display',-apple-system,system-ui,BlinkMacSystemFont,'Segoe UI',Roboto,Oxygen-Sans,Ubuntu,Cantarell,'Helvetica Neue',sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+    }
+
+    p{
+        font-weight: 500; 
+        font-size: 1.2rem; 
+        margin-bottom: 7rem
+    }
+
+    h1{
+        font-size: 3.5rem;
+        margin-bottom: 4rem;
+    }
+     .container {
+        border: 1px solid rgb(173, 167, 167);
+        border-radius: 30px;
+        width: 25%;
+        margin: 0 auto;
+        padding: 1.5rem 2rem;
+    }
+    ol {
+       list-style: none;
+        padding-left: 0;
+        margin-bottom: 8rem;
+    }
+
+    li {
+        font-weight: 500;
+        list-style-type: none;
+        margin: .3rem 0;
+    }
+
+    li:before {
+        content: '✓';
+        margin-right: .7rem;
+        font-weight: bolder;
+    }
+
+    button {
+        font-size: 1rem;
+        font-weight: 600;
+        color: rgb(61, 58, 58);
+        background-color: white;
+        padding: 20px 38px;
+        outline: none;
+        border: 2px solid rgb(107, 103, 103);
+        border-radius: 35px;
+        width: 100%;
+    }
+
+    span {
+        border-bottom: 2px dotted black;
+    }
+</style>
+
+<body>
+    <main>
+        <div class="container">
+            <div>
+                <h2>Free</h3>
+                <p>
+                    For individuals or very small <br> teams just getting started <br> with Airtable
+                </p>
+                <h1>Free</h1>
+                <button>Sign Up</button> 
+            </div>
+
+            <div>
+                <h3 style="font-weight: 500;">Free includes:</h3>
+                <ol>
+                    <li>Unlimited bases</li>
+                    <li>Up to 5 creators or editors</li>
+                    <li>Unlimited commenter & read-only user</li>
+                    <li><span>Interface Designer</span></li>
+                    <li>1 <span>extension</span> per base</li>
+                    <li>1 sync integration</li>
+                    <li>1,200 records per base</li>
+                    <li>2GB of attachments per base</li>
+                </ol>
+            </div>
+        </div>    
+    </main>
+</body>
+</html>
